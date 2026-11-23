@@ -8,8 +8,8 @@ set is the score. A frozen audio encoder (CLAP-HTSAT) contributes a second
 measurement, fused by one fixed coefficient. Nothing is trained, captioned,
 or normalized per video.
 
-Companion code for the paper *"Anomaly as a Measurement: Training-Free Video
-Anomaly Detection with Contrastive Semantic Anchors"* (IEEE TCSVT submission).
+Companion code for the paper *"CSAF: Training-Free Video Anomaly Detection
+with Contrastive Semantic Anchors"* (IEEE TCSVT submission).
 
 ## Method in one paragraph
 
@@ -79,7 +79,7 @@ controls are in `data/wording_matrix.json` and `data/clip_control.json`.
 
 ```
 @article{csaf2026,
-  title   = {Anomaly as a Measurement: Training-Free Video Anomaly Detection with Contrastive Semantic Anchors},
+  title   = {CSAF: Training-Free Video Anomaly Detection with Contrastive Semantic Anchors},
   journal = {IEEE Transactions on Circuits and Systems for Video Technology},
   year    = {2026},
   note    = {under review}
