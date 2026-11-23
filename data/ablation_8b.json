@@ -1,0 +1,43 @@
+{
+ "protocol": "8B re-encode at 1fps, published anchors/recipe, canonical rng42 splits",
+ "xd": {
+  "vis_full800": {
+   "auc": 89.3,
+   "ap": 71.48
+  },
+  "vis_clean750": {
+   "auc": 89.98,
+   "ap": 71.71
+  },
+  "fused_full800": {
+   "auc": 91.15,
+   "ap": 76.04
+  },
+  "fused_clean750": {
+   "auc": 91.28,
+   "ap": 75.4
+  },
+  "lambda": 0.5
+ },
+ "ucf": {
+  "vis_full290_auc": 83.09,
+  "vis_clean240_auc": 80.27,
+  "video_level_full_auc": 93.33
+ },
+ "reference_2b_published": {
+  "xd_vis_clean": {
+   "auc": 92.35,
+   "ap": 77.08
+  },
+  "xd_fused_clean": {
+   "auc": 92.82,
+   "ap": 78.55
+  },
+  "xd_fused_full": {
+   "auc": 92.83,
+   "ap": 79.32
+  },
+  "ucf_vis_clean": 83.32,
+  "ucf_full": 86.58
+ }
+}

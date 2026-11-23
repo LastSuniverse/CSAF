@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.npz
+*.npy
+*.pt
+*.bin
+*.safetensors
+models/
+frames*/
+cache*/
+!data/*.json
+.DS_Store

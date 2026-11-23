@@ -1,0 +1,7 @@
+torch>=2.4
+transformers>=5.0
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+Pillow>=10.0
+huggingface_hub>=0.24

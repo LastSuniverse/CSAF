@@ -1,0 +1,35 @@
+{
+ "model": "CLIP-ViT-L/336 (clip-vit-large-patch14-336)",
+ "protocol": {
+  "w": 5,
+  "grid": "1 fps, frame-aligned with the Qwen cache",
+  "sets": "full official test sets"
+ },
+ "anchors": {
+  "ucf_domain": "UCF surveillance 6+6",
+  "xd_domain": "XD violence 6+6",
+  "uni6": "dataset-neutral 6+6"
+ },
+ "results": {
+  "ucf_clip_ucf_domain": {
+   "auc": 82.53,
+   "ap": 26.47,
+   "n_videos": 290
+  },
+  "ucf_clip_uni6": {
+   "auc": 67.53,
+   "ap": 12.95,
+   "n_videos": 290
+  },
+  "xd_clip_xd_domain": {
+   "auc": 90.74,
+   "ap": 72.01,
+   "n_videos": 800
+  },
+  "xd_clip_uni6": {
+   "auc": 43.79,
+   "ap": 20.51,
+   "n_videos": 800
+  }
+ }
+}

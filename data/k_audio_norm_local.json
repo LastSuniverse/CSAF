@@ -1,0 +1,70 @@
+{
+ "protocol": {
+  "w": 5,
+  "lambda": 0.1,
+  "set": "full XD test (800)",
+  "anom": 6,
+  "norm_sets": {
+   "K2": "random 2-subsets of NORM4 (seeds 11/22/33)",
+   "K4": "NORM4 (recorded)",
+   "K6": "NORM4 + 2 declared extensions"
+  }
+ },
+ "extension_anchors": [
+  "wind, rain and weather ambience",
+  "distant traffic and city hum"
+ ],
+ "note": "visual curves recomputed locally (2B bf16, CPU); expect small numeric drift vs the server fp16-cache reference",
+ "configs": {
+  "K2_seed11": {
+   "fused": {
+    "auc": 93.25,
+    "ap": 80.35
+   },
+   "audio_only": {
+    "auc": 79.32,
+    "ap": 57.83
+   }
+  },
+  "K2_seed22": {
+   "fused": {
+    "auc": 93.1,
+    "ap": 80.01
+   },
+   "audio_only": {
+    "auc": 77.54,
+    "ap": 53.56
+   }
+  },
+  "K2_seed33": {
+   "fused": {
+    "auc": 93.1,
+    "ap": 80.01
+   },
+   "audio_only": {
+    "auc": 77.54,
+    "ap": 53.56
+   }
+  },
+  "K4_recorded": {
+   "fused": {
+    "auc": 93.19,
+    "ap": 80.22
+   },
+   "audio_only": {
+    "auc": 78.85,
+    "ap": 56.76
+   }
+  },
+  "K6_extended": {
+   "fused": {
+    "auc": 93.23,
+    "ap": 80.42
+   },
+   "audio_only": {
+    "auc": 79.2,
+    "ap": 58.2
+   }
+  }
+ }
+}

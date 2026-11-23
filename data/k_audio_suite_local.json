@@ -1,0 +1,190 @@
+{
+ "protocol": {
+  "w": 5,
+  "lambda": 0.1,
+  "sets": "full XD 800 / full UCF 290"
+ },
+ "xb_anom_count": {
+  "K2": [
+   {
+    "tag": "K2_seed11",
+    "cols": [
+     0,
+     5
+    ],
+    "fused": {
+     "auc": 93.16,
+     "ap": 80.06
+    },
+    "audio_only": {
+     "auc": 76.49,
+     "ap": 50.71
+    }
+   },
+   {
+    "tag": "K2_seed22",
+    "cols": [
+     2,
+     3
+    ],
+    "fused": {
+     "auc": 93.17,
+     "ap": 80.31
+    },
+    "audio_only": {
+     "auc": 79.58,
+     "ap": 58.04
+    }
+   },
+   {
+    "tag": "K2_seed33",
+    "cols": [
+     2,
+     4
+    ],
+    "fused": {
+     "auc": 93.3,
+     "ap": 80.85
+    },
+    "audio_only": {
+     "auc": 78.52,
+     "ap": 57.34
+    }
+   }
+  ],
+  "K4": [
+   {
+    "tag": "K4_seed11",
+    "cols": [
+     0,
+     2,
+     3,
+     4
+    ],
+    "fused": {
+     "auc": 93.23,
+     "ap": 80.4
+    },
+    "audio_only": {
+     "auc": 79.42,
+     "ap": 58.89
+    }
+   },
+   {
+    "tag": "K4_seed22",
+    "cols": [
+     1,
+     2,
+     3,
+     5
+    ],
+    "fused": {
+     "auc": 93.14,
+     "ap": 80.08
+    },
+    "audio_only": {
+     "auc": 78.76,
+     "ap": 54.98
+    }
+   },
+   {
+    "tag": "K4_seed33",
+    "cols": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "fused": {
+     "auc": 93.18,
+     "ap": 80.22
+    },
+    "audio_only": {
+     "auc": 79.33,
+     "ap": 57.93
+    }
+   }
+  ],
+  "K6": [
+   {
+    "tag": "K6_recorded_anom",
+    "cols": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "fused": {
+     "auc": 93.19,
+     "ap": 80.22
+    },
+    "audio_only": {
+     "auc": 78.85,
+     "ap": 56.76
+    }
+   }
+  ]
+ },
+ "xc_anom_wording": {
+  "alt1": {
+   "fused": {
+    "auc": 93.04,
+    "ap": 79.83
+   },
+   "audio_only": {
+    "auc": 77.84,
+    "ap": 54.69
+   }
+  },
+  "alt2": {
+   "fused": {
+    "auc": 92.93,
+    "ap": 79.6
+   },
+   "audio_only": {
+    "auc": 76.7,
+    "ap": 52.31
+   }
+  }
+ },
+ "xd_lambda_grid": {
+  "0.05": {
+   "auc": 92.67,
+   "ap": 79.0
+  },
+  "0.1": {
+   "auc": 93.19,
+   "ap": 80.22
+  },
+  "0.15": {
+   "auc": 93.51,
+   "ap": 80.96
+  },
+  "0.2": {
+   "auc": 93.67,
+   "ap": 81.32
+  },
+  "0.25": {
+   "auc": 93.7,
+   "ap": 81.37
+  },
+  "0.3": {
+   "auc": 93.64,
+   "ap": 81.21
+  }
+ },
+ "ucf_recipe_audit": {
+  "n_audio": 254,
+  "sa_only": {
+   "auc": 85.68,
+   "ap": 31.15
+  },
+  "sa_sn": {
+   "auc": 86.41,
+   "ap": 30.08
+  },
+  "gate_note": "sa_only must reproduce the recorded fused FULL 86.41 at lambda=0.1"
+ }
+}

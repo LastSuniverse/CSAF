@@ -1,0 +1,197 @@
+{
+  "split": {
+    "hold50_n": 50,
+    "rest240_n": 240,
+    "zero_audio_videos": 36
+  },
+  "lambdas": {
+    "0.0": {
+      "hold50": {
+        "micro_auroc": 0.9484,
+        "frame_ap": 0.5848,
+        "n_videos": 50
+      },
+      "rest240": {
+        "micro_auroc": 0.8332,
+        "frame_ap": 0.2769,
+        "n_videos": 240
+      },
+      "FULL": {
+        "micro_auroc": 0.8655,
+        "frame_ap": 0.3303,
+        "n_videos": 290
+      }
+    },
+    "0.05": {
+      "hold50": {
+        "micro_auroc": 0.9493,
+        "frame_ap": 0.5877,
+        "n_videos": 50
+      },
+      "rest240": {
+        "micro_auroc": 0.8325,
+        "frame_ap": 0.2669,
+        "n_videos": 240
+      },
+      "FULL": {
+        "micro_auroc": 0.865,
+        "frame_ap": 0.3154,
+        "n_videos": 290
+      }
+    },
+    "0.1": {
+      "hold50": {
+        "micro_auroc": 0.9496,
+        "frame_ap": 0.5896,
+        "n_videos": 50
+      },
+      "rest240": {
+        "micro_auroc": 0.8313,
+        "frame_ap": 0.2607,
+        "n_videos": 240
+      },
+      "FULL": {
+        "micro_auroc": 0.8641,
+        "frame_ap": 0.3008,
+        "n_videos": 290
+      }
+    },
+    "0.15": {
+      "hold50": {
+        "micro_auroc": 0.9495,
+        "frame_ap": 0.5907,
+        "n_videos": 50
+      },
+      "rest240": {
+        "micro_auroc": 0.8297,
+        "frame_ap": 0.2568,
+        "n_videos": 240
+      },
+      "FULL": {
+        "micro_auroc": 0.8626,
+        "frame_ap": 0.2897,
+        "n_videos": 290
+      }
+    },
+    "0.2": {
+      "hold50": {
+        "micro_auroc": 0.9492,
+        "frame_ap": 0.5912,
+        "n_videos": 50
+      },
+      "rest240": {
+        "micro_auroc": 0.8279,
+        "frame_ap": 0.2541,
+        "n_videos": 240
+      },
+      "FULL": {
+        "micro_auroc": 0.8609,
+        "frame_ap": 0.2829,
+        "n_videos": 290
+      }
+    },
+    "0.25": {
+      "hold50": {
+        "micro_auroc": 0.9489,
+        "frame_ap": 0.5915,
+        "n_videos": 50
+      },
+      "rest240": {
+        "micro_auroc": 0.8258,
+        "frame_ap": 0.252,
+        "n_videos": 240
+      },
+      "FULL": {
+        "micro_auroc": 0.8592,
+        "frame_ap": 0.2784,
+        "n_videos": 290
+      }
+    },
+    "0.3": {
+      "hold50": {
+        "micro_auroc": 0.9485,
+        "frame_ap": 0.5917,
+        "n_videos": 50
+      },
+      "rest240": {
+        "micro_auroc": 0.8235,
+        "frame_ap": 0.2499,
+        "n_videos": 240
+      },
+      "FULL": {
+        "micro_auroc": 0.8571,
+        "frame_ap": 0.275,
+        "n_videos": 290
+      }
+    },
+    "0.35": {
+      "hold50": {
+        "micro_auroc": 0.9481,
+        "frame_ap": 0.5918,
+        "n_videos": 50
+      },
+      "rest240": {
+        "micro_auroc": 0.821,
+        "frame_ap": 0.2479,
+        "n_videos": 240
+      },
+      "FULL": {
+        "micro_auroc": 0.8548,
+        "frame_ap": 0.2722,
+        "n_videos": 290
+      }
+    },
+    "0.4": {
+      "hold50": {
+        "micro_auroc": 0.9477,
+        "frame_ap": 0.5917,
+        "n_videos": 50
+      },
+      "rest240": {
+        "micro_auroc": 0.8184,
+        "frame_ap": 0.2459,
+        "n_videos": 240
+      },
+      "FULL": {
+        "micro_auroc": 0.8523,
+        "frame_ap": 0.2696,
+        "n_videos": 290
+      }
+    },
+    "0.45": {
+      "hold50": {
+        "micro_auroc": 0.9474,
+        "frame_ap": 0.5916,
+        "n_videos": 50
+      },
+      "rest240": {
+        "micro_auroc": 0.8157,
+        "frame_ap": 0.244,
+        "n_videos": 240
+      },
+      "FULL": {
+        "micro_auroc": 0.8496,
+        "frame_ap": 0.2672,
+        "n_videos": 290
+      }
+    },
+    "0.5": {
+      "hold50": {
+        "micro_auroc": 0.9471,
+        "frame_ap": 0.5911,
+        "n_videos": 50
+      },
+      "rest240": {
+        "micro_auroc": 0.813,
+        "frame_ap": 0.2422,
+        "n_videos": 240
+      },
+      "FULL": {
+        "micro_auroc": 0.847,
+        "frame_ap": 0.2649,
+        "n_videos": 290
+      }
+    }
+  },
+  "holdout_argmax": 0.1
+}

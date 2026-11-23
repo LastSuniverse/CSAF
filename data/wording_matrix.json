@@ -1,0 +1,70 @@
+{
+ "protocol": {
+  "w": 5,
+  "grid": "1 fps",
+  "sets": "full official test sets",
+  "note": "visual-only; every cell uses the same features, only wording changes"
+ },
+ "cells": {
+  "ucf_qwen_domain": {
+   "auc": 86.56,
+   "ap": 33.05,
+   "n": 290
+  },
+  "ucf_qwen_uni6": {
+   "auc": 85.44,
+   "ap": 26.33,
+   "n": 290
+  },
+  "ucf_qwen_swap": {
+   "auc": 84.43,
+   "ap": 29.06,
+   "n": 290
+  },
+  "xd_qwen_domain": {
+   "auc": 91.87,
+   "ap": 77.13,
+   "n": 800
+  },
+  "xd_qwen_uni6": {
+   "auc": 90.38,
+   "ap": 73.0,
+   "n": 800
+  },
+  "xd_qwen_swap": {
+   "auc": 87.81,
+   "ap": 68.95,
+   "n": 800
+  },
+  "ucf_clip_domain": {
+   "auc": 82.53,
+   "ap": 26.47,
+   "n": 290
+  },
+  "ucf_clip_uni6": {
+   "auc": 67.53,
+   "ap": 12.95,
+   "n": 290
+  },
+  "ucf_clip_swap": {
+   "auc": 71.71,
+   "ap": 19.96,
+   "n": 290
+  },
+  "xd_clip_domain": {
+   "auc": 90.74,
+   "ap": 72.01,
+   "n": 800
+  },
+  "xd_clip_uni6": {
+   "auc": 43.79,
+   "ap": 20.51,
+   "n": 800
+  },
+  "xd_clip_swap": {
+   "auc": 70.21,
+   "ap": 39.22,
+   "n": 800
+  }
+ }
+}
