@@ -9,7 +9,7 @@ measurement, fused by one fixed coefficient. Nothing is trained, captioned,
 or normalized per video.
 
 Companion code for the paper *"CSAF: Training-Free Video Anomaly Detection
-with Contrastive Semantic Anchors"* (IEEE TCSVT submission).
+with Contrastive Semantic Anchor Fusion"* (IEEE TCSVT submission).
 
 ## Method in one paragraph
 
@@ -80,7 +80,7 @@ controls are in `data/wording_matrix.json` and `data/clip_control.json`.
 ```
 @article{csaf2026,
   author  = {Chenyu Wang and Bing Liu and Xiaohui Chen and Junru Cui},
-  title   = {CSAF: Training-Free Video Anomaly Detection with Contrastive Semantic Anchors},
+  title   = {CSAF: Training-Free Video Anomaly Detection with Contrastive Semantic Anchor Fusion},
   journal = {IEEE Transactions on Circuits and Systems for Video Technology},
   year    = {2026},
   note    = {under review}
