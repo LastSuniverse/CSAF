@@ -79,7 +79,7 @@ controls are in `data/wording_matrix.json` and `data/clip_control.json`.
 
 ```
 @article{csaf2026,
-  author  = {Chenyu Wang and Bing Liu and Xiaohui Chen},
+  author  = {Chenyu Wang and Bing Liu and Xiaohui Chen and Junru Cui},
   title   = {CSAF: Training-Free Video Anomaly Detection with Contrastive Semantic Anchors},
   journal = {IEEE Transactions on Circuits and Systems for Video Technology},
   year    = {2026},
